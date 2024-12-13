@@ -241,6 +241,12 @@ namespace secondproject
             //the answer is b) A value 1 will be assigned to d.
             #endregion
 
+
+            #region question 16)
+            Console.WriteLine(13 / 2 + " " + 13 % 2);
+            //the answer will be d) 6 1
+            #endregion
+
         }
     }
 }
