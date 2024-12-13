@@ -104,6 +104,25 @@ namespace secondproject
             #endregion
 
 
+            #region question 8)
+
+            Console.WriteLine("Enter Marks of five subjects:");
+            int[] marks = new int[5];
+            int sum = 0;
+            float avg = 0, perc = 0;
+            for (int i = 0; i < marks.Length; i++)
+            {
+                marks[i] = int.Parse(Console.ReadLine());
+                sum += marks[i];
+            }
+            avg = sum / 5;
+            perc = (avg / 100) * 100;
+            Console.WriteLine("Total marks" + sum);
+            Console.WriteLine("Average Marks" + avg);
+            Console.WriteLine("Percentage" + perc);
+
+            #endregion
+
 
 
         }
