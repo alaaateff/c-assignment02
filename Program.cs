@@ -76,6 +76,22 @@ namespace secondproject
             #endregion
 
 
+            #region question 6)
+            Console.WriteLine("Please enter number");
+            int num = int.Parse(Console.ReadLine());
+            int[] nums = new int[12];
+            for (int i = 1; i <= 12; i++)
+            {
+                nums[i - 1] = num * i;
+            }
+            for (int i = 0; i < nums.Length; i++)
+            {
+                Console.WriteLine(nums[i]);
+            }
+            #endregion
+
+
+
 
         }
     }
