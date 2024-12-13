@@ -235,7 +235,12 @@ namespace secondproject
             //the answer is b) A value 1 will be assigned to d.
             #endregion
 
-           
+            #region question 15)
+            int d;
+            d = Convert.ToInt32(!(30 < 20));
+            //the answer is b) A value 1 will be assigned to d.
+            #endregion
+
         }
     }
 }
