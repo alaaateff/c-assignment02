@@ -215,6 +215,21 @@ namespace secondproject
             //because the value is copied only so the x will not be changed when y changed
             #endregion
 
+
+            #region question 13)
+            Point p1;
+            Point p2;
+            p1 = new Point();
+            p1.X = 10;
+            p2 = new Point();
+            p2.X = 0;
+            p2.X = p1.X;
+            Console.WriteLine(p1.X);
+            Console.WriteLine(p2.X);
+            //here the two objects points to the same variable in the memory so when one changed the other changed
+            #endregion
+
+
         }
     }
 }
