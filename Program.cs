@@ -229,7 +229,13 @@ namespace secondproject
             //here the two objects points to the same variable in the memory so when one changed the other changed
             #endregion
 
+            #region question 14)
+            int d;
+            d = Convert.ToInt32(!(30 < 20));
+            //the answer is b) A value 1 will be assigned to d.
+            #endregion
 
+           
         }
     }
 }
