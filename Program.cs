@@ -188,6 +188,19 @@ namespace secondproject
 
             #endregion
 
+            #region question 11)
+
+            Console.WriteLine("please enter time taken in hours");
+            float time = float.Parse(Console.ReadLine());
+            if (time >= 2 && time < 3)
+                Console.WriteLine("they are considered highly efficient.");
+            else if (time >= 3 && time < 4)
+                Console.WriteLine("they are instructed to increase their speed.");
+            else if (time >= 4 && time <= 5)
+                Console.WriteLine("they are provided with training to enhance their speed.");
+            else if (time > 5)
+                Console.WriteLine("they are required to leave the company.");
+            #endregion
 
 
         }
