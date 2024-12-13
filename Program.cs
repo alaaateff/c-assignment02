@@ -123,6 +123,34 @@ namespace secondproject
 
             #endregion
 
+            #region question 9)
+            Console.WriteLine("Please enter number");
+            int num = int.Parse(Console.ReadLine());
+            switch (num)
+            {
+                case 2:
+                    Console.WriteLine(29);
+                    break;
+                case 4:
+                    Console.WriteLine(30);
+                    break;
+                case 6:
+                    Console.WriteLine(30);
+                    break;
+                case 9:
+                    Console.WriteLine(30);
+                    break;
+                case 11:
+                    Console.WriteLine(30);
+                    break;
+                default:
+                    Console.WriteLine(31);
+                    break;
+
+            }
+
+            #endregion
+
 
 
         }
