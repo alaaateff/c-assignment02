@@ -203,6 +203,18 @@ namespace secondproject
             #endregion
 
 
+            #region question 12)
+            int x;
+            int y = 10;
+            x = y;
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            y = 11;
+            Console.WriteLine(y);
+            Console.WriteLine(x);
+            //because the value is copied only so the x will not be changed when y changed
+            #endregion
+
         }
     }
 }
