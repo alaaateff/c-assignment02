@@ -50,6 +50,16 @@ namespace secondproject
             #endregion
 
 
+            #region question 4)
+            Console.WriteLine("Please enter number");
+            int num = int.Parse(Console.ReadLine());
+            if (num % 2 == 0)
+                Console.WriteLine("even");
+            else
+                Console.WriteLine("odd");
+            #endregion
+
+
 
 
 
