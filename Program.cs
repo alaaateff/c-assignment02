@@ -49,7 +49,6 @@ namespace secondproject
 
             #endregion
 
-
             #region question 4)
             Console.WriteLine("Please enter number");
             int num = int.Parse(Console.ReadLine());
@@ -60,7 +59,21 @@ namespace secondproject
             #endregion
 
 
-
+            #region question 5)
+            Console.WriteLine("Please enter character");
+            bool isvowel = false;
+            char[] vowels = { 'a', 'e', 'I', 'o', 'u' };
+            char character = char.Parse(Console.ReadLine());
+            for (int i = 0; i < vowels.Length; i++)
+            {
+                if (character == vowels[i])
+                    isvowel = true;
+            }
+            if (isvowel == true)
+                Console.WriteLine("vowel");
+            else
+                Console.WriteLine("consonant");
+            #endregion
 
 
 
