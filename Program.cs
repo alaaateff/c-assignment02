@@ -1,4 +1,6 @@
-﻿namespace secondproject
+﻿using System.Drawing;
+
+namespace secondproject
 {
     internal class Program
     {
@@ -13,7 +15,17 @@
                 Console.WriteLine("no");
             #endregion
 
-           
+            #region question 2)
+            Console.WriteLine("Please enter number");
+            int number = int.Parse(Console.ReadLine());
+            if (number < 0)
+                Console.WriteLine("negative");
+            else
+                Console.WriteLine("positive");
+            #endregion
+
+            
+
 
 
 
